@@ -1,0 +1,10 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.std_logic_unsigned.ALL;
+
+entity game_lx_next is
+	port(
+	
+	
+	);
+end game_lx_next;

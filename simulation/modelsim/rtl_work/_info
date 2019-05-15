@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/class/FPGACLASS/free/simulation/modelsim
+T_opt
+!s110 1557909153
+VziFSDLCcgajDX^V5UT_L:3
+04 2 5 work tb tb_ar 1
+=1-d481d767efaa-5cdbcea0-3ae-3bc8
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+Egame_lx_ram
+Z1 w1557908953
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8E:/class/FPGACLASS/free/game_lx_ram.vhd
+Z7 FE:/class/FPGACLASS/free/game_lx_ram.vhd
+l0
+L5
+V1loRB7F_EKGoGoN3MQ`ZU2
+!s100 RnLW8BG=z`HI_WEOOXl770
+Z8 OL;C;10.4;61
+31
+Z9 !s110 1557909152
+!i10b 1
+Z10 !s108 1557909152.063000
+Z11 !s90 -reportprogress|300|-93|-work|work|E:/class/FPGACLASS/free/game_lx_ram.vhd|
+Z12 !s107 E:/class/FPGACLASS/free/game_lx_ram.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1
+Agame_lx_ram_ar
+R2
+R3
+R4
+R5
+DEx4 work 11 game_lx_ram 0 22 1loRB7F_EKGoGoN3MQ`ZU2
+l26
+L24
+VSUNK`AAG>kLnHE]f@RY=V1
+!s100 7gAA2AB=oKOf8<PQ>7o021
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Etb
+Z15 w1557909078
+R2
+R3
+R4
+R5
+R0
+Z16 8E:/class/FPGACLASS/free/tb.vhd
+Z17 FE:/class/FPGACLASS/free/tb.vhd
+l0
+L5
+VB7bU0;N599Oa]?ZW9?4LD2
+!s100 LBThVBGONCgB3Jk?0Ib943
+R8
+31
+R9
+!i10b 1
+Z18 !s108 1557909152.393000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/class/FPGACLASS/free/tb.vhd|
+Z20 !s107 E:/class/FPGACLASS/free/tb.vhd|
+!i113 0
+R13
+R14
+Atb_ar
+R2
+R3
+R4
+R5
+DEx4 work 2 tb 0 22 B7bU0;N599Oa]?ZW9?4LD2
+l40
+L7
+VCieP]J9z=^_^_DQAom@EA0
+!s100 hcmKfdY1A_CMa:[]PEi4B1
+R8
+31
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R13
+R14

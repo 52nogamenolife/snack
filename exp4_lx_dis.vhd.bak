@@ -1,0 +1,66 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.std_logic_unsigned.ALL;
+
+entity exp4_lx_dis is
+port(
+	counter : in std_logic_vector(1 downto 0);
+	status : in std_logic_vector(3 downto 0);
+	datacode : out std_logic_vector(3 downto 0)
+);
+end exp4_lx_dis;
+
+architecture exp4_lx_dis_ar of exp4_lx_dis is
+signal temp : std_logic_vector(3 downto 0);
+begin
+process(counter)
+begin
+case counter is
+when "01" =>
+	if status(0)= '0' then
+		temp <= "0001";
+	elsif status(1)='0' then
+		temp <= "0100";
+	elsif status(2)='0' then
+		temp <= "0111";
+	elsif status(3)='0' then
+		temp <= "1111";
+	else temp<=temp;
+	end if;
+when "10" =>
+	if status(0)= '0' then
+		temp <= "0010";
+	elsif status(1)='0' then
+		temp <= "0101";
+	elsif status(2)='0' then
+		temp <= "1000";
+	elsif status(3)='0' then
+		temp <= "0000";
+	else temp<=temp;
+	end if;
+when "11" =>
+	if status(0)= '0' then
+		temp <= "0011";
+	elsif status(1)='0' then
+		temp <= "0110";
+	elsif status(2)='0' then
+		temp <= "1001";
+	elsif status(3)='0' then
+		temp <= "1110";
+	else temp<=temp;
+	end if;
+when "00" =>
+	if status(0)= '0' then
+		temp <= "1010";
+	elsif status(1)='0' then
+		temp <= "1011";
+	elsif status(2)='0' then
+		temp <= "1100";
+	elsif status(3)='0' then
+		temp <= "1101";
+	else temp<=temp;
+	end if;
+end case;
+datacode<=temp;
+end process;
+end exp4_lx_dis_ar;
